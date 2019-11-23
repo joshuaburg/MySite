@@ -17,19 +17,20 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
 }
-
+/* 5edfff  bae8e8  e3f6f5 */
 .top-container{
-  background-color: #bae8e8;
+  background-color: #64b2cd ;
   position: relative;
   padding-top: 100px;
   }
 
 .middle-container{
-  background-color: #e3f6f5;
+  background-color: #d9eeec;
 }
 
 .bottom-container{
-
+  background-color: #64b2cd;
+  padding-top: 1px;
 }
 
 .top-cloud{
@@ -57,4 +58,10 @@ h3{
 .electric{
     margin-top: 15px;
   height: 100px;
+}
+
+.last-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 60px;
 }
