@@ -6,33 +6,90 @@ body{
 }
 
 h1{
-  font-size: 90px;
-  margin-top: 0;
+  font-size: 5.62rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
+
+.textp{
+  color: #66BFBF;
+  font-weight: normal;
+}
+
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-family: , sans-serif;
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.btn{
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background:-webkit-linear-gradient(#11999E 5%, #11999E 100%);
+  background:-o-linear-gradient(#11999E 5%, #11999E 100%);
+  background:linear-gradient(#11999E 5%, #11999E 100%);
+  background-color:#11999E;
+  border-radius:8px;
+  border:1px solid #124d77;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Montserrat';
+  font-size:18px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+}
+
 /* 5edfff  bae8e8  e3f6f5 */
 .top-container{
-  background-color: #64b2cd ;
+  background-color: #EAF6F6 ;
   position: relative;
   padding-top: 100px;
   }
 
 .middle-container{
-  background-color: #d9eeec;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .bottom-container{
-  background-color: #64b2cd;
-  padding-top: 1px;
+  background-color: #66BFBF;
+  padding: 40px 0 20px;
+  line-height: 2;
 }
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
 
 .top-cloud{
   position: absolute;
@@ -46,23 +103,40 @@ h3{
   bottom: 300px;
 }
 
+
 .josh{
   margin-top: 15px;
   height: 90px;
 }
 
 .camera{
-  height: 100px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 
 }
 
 .electric{
-    margin-top: 15px;
-  height: 100px;
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
 
 .last-cloud{
   position: absolute;
   left: 200px;
   bottom: 60px;
+}
+
+.copywrite{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 20px;
+
+}
+
+.con-msg{
+    margin: 40px auto 60px;
+      line-height: 2;
+      width: 40%
 }
